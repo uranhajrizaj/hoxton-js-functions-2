@@ -13,4 +13,4 @@ let  letter=prompt("Enter a letter");
  
  //   - Prompt the user for a user ID. Using the value, find all the todos that are Incomplete and console.log them.
  let  number=Number(prompt("Enter your id"));
- todos.filter(todo=>todo.userId===number && todo.completed===true).forEach(todo=>console.log(todo.title));
+ todos.filter(todo=>todo.userId===number && todo.completed===true).forEach(todo=>console.log(`Your incomplete to ${todo.title}`));
